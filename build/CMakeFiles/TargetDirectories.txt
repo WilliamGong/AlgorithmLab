@@ -1,9 +1,0 @@
-C:/Users/gtl11/Projects/AlgorithmLab/build/CMakeFiles/AlgorithmLab.dir
-C:/Users/gtl11/Projects/AlgorithmLab/build/CMakeFiles/edit_cache.dir
-C:/Users/gtl11/Projects/AlgorithmLab/build/CMakeFiles/rebuild_cache.dir
-C:/Users/gtl11/Projects/AlgorithmLab/build/src/sort/CMakeFiles/sort.dir
-C:/Users/gtl11/Projects/AlgorithmLab/build/src/sort/CMakeFiles/edit_cache.dir
-C:/Users/gtl11/Projects/AlgorithmLab/build/src/sort/CMakeFiles/rebuild_cache.dir
-C:/Users/gtl11/Projects/AlgorithmLab/build/src/testCase/CMakeFiles/testCase.dir
-C:/Users/gtl11/Projects/AlgorithmLab/build/src/testCase/CMakeFiles/edit_cache.dir
-C:/Users/gtl11/Projects/AlgorithmLab/build/src/testCase/CMakeFiles/rebuild_cache.dir
