@@ -20,21 +20,16 @@ void merge(int current[], int aux[], int start, int mid, int end) {
             j++;
         }
     }
-    if(i > mid) {
-        for(; j < end; j++) {
-            aux[k] = current[j];
-            k++;
-        }
+    
+    while(i <= mid) {
+        aux[k++] = current[i++];
     }
-    if(j > end) {
-        for(; i < mid; i++) {
-            aux[k] = current[i];
-            k++;
-        }
+    while(j <= end) {
+        aux[k++] = current[j++];
     }
 
     //put the element in aux[] into the current range in current[]
-    for(int i = start; i < end; i++) {
+    for(int i = start; i <= end; i++) {
         current[i] = aux[i];
     }
 }
