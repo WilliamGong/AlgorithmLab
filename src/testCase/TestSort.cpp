@@ -2,6 +2,7 @@
 #include <iostream>
 #include "insertSort.h"
 #include "shellSort.h"
+#include "mergeSort.h"
 
 TestSort::TestSort(int num, std::string object) {
     //随机生成测试数组
@@ -35,5 +36,8 @@ void TestSort::testMain() {
     }else if(this->object == "shell") {
         std::cout << "Shell sort" << std::endl;
         shellSort(this->testArray, this->num);
+    }else if(this->object == "mergeUp") {
+        std::cout << "Merge sort(up to down)" << std::endl;
+        mergeSort(this->testArray, this->num, "up-to-down");
     }
 }
